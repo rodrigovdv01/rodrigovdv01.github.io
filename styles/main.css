@@ -57,6 +57,7 @@ header {
 nav {
     display: flex;
     flex: 3;
+    font-family: 'Rubik', sans-serif;
 }
 
 .menu {
