@@ -23,7 +23,7 @@ body {
     width: 100%;
 }
 
-header {
+.body_header {
     z-index: 100;
     display: block;
     position: fixed;
@@ -112,13 +112,54 @@ nav {
     background: #5c8296;
     width: 100%;
     height: 670px;
-    padding: 200px 0 220px;
+    padding: 155px 0 220px;
+}
+
+.section-1_inner {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.section-1_header h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 64px;
+    margin: 0;
+}
+
+.section-1_footer p {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.section-1_footer {
+    margin: 10px 0;
 }
 
 .section-2 {
     width: 100%;
     height: 35px;
-    background: #971b32;
+    background: #6da9c1;
+}
+
+.section-2 p {
+    position: relative;
+    height: 100%;
+    padding: 6px 0;
+    text-align: center;
 }
 
 .section-3 {
