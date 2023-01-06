@@ -23,7 +23,7 @@ body {
     width: 100%;
 }
 
-.header {
+header {
     z-index: 100;
     display: block;
     position: fixed;
@@ -54,7 +54,7 @@ body {
     flex: 3;
 }
 
-.nav {
+nav {
     display: flex;
     flex: 3;
 }
