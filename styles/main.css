@@ -120,7 +120,7 @@ nav {
     text-align: center;
 }
 
-.section-1_header h1 {
+.section-1_header h2 {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 64px;
@@ -171,7 +171,7 @@ nav {
     padding: 80px 0 20px;
 }
 
-.section-3--div h1 {
+.section-3--div h2 {
     padding: 0;
     margin: 0;
     color: #fff;
