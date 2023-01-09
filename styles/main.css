@@ -82,9 +82,12 @@ nav {
 .section-1 {
     z-index: 10;
     background: #5c8296;
+    background: url("../images/tapers.jpg");
+    background-position: center;
     width: 100%;
     flex-basis: 84vh;
-    padding: 155px 0 220px;
+    padding-top: 20px;
+    padding-bottom: 220px;
 }
 
 .section-1_inner {
