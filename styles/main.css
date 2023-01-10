@@ -22,6 +22,24 @@ nav {
     font-family: 'Rubik', sans-serif;
 }
 
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+
+/* || Utilities */
+
 .rubik {
     font-family: 'Rubik', sans-serif;
 }
@@ -29,6 +47,9 @@ nav {
 .bold {
     font-weight: bold;
 }
+
+
+/* || Content */
 
 .wrapper {
     display: grid;
@@ -62,6 +83,9 @@ nav {
     grid-column: 1 / span 12;
     color: #fff;
 }
+
+
+/* || Header */
 
 .header_inner {
     height: 100%;
@@ -119,6 +143,9 @@ nav {
     font-size: 15px;
     height: 100%;
 }
+
+
+/* || Main */
 
 .section-1 {
     z-index: 10;
