@@ -13,6 +13,7 @@
     }
     .section-header {
         flex-basis: 80px;
+        margin-bottom: 40px;
     }
     .section-header h2 {
         text-align: center;
@@ -29,9 +30,6 @@
         font-family: 'Quicksand', sans-serif;
         font-size: 2vw;
         margin: 0;
-    }
-    .section-content {
-        margin-top: 40px;
     }
     .panel-wrapper {
         display: flex;
