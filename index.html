@@ -15,9 +15,10 @@
     <link rel="shortcut icon" href="images/logo-192px192px.png" type="image/x-icon">
 
     <!--CSS Style-->
-    <link href="styles/header.css" rel=stylesheet type="text/css">
-    <link href="styles/section1.css" rel=stylesheet type="text/css">
     <link href="styles/main.css" rel=stylesheet type="text/css">
+    <link href="styles/header.css" rel=stylesheet type="text/css">
+    <link href="styles/banner.css" rel=stylesheet type="text/css">
+    <link href="styles/section.css" rel=stylesheet type="text/css">
 
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,15 +29,15 @@
 <body>
 
     <div class="wrapper">
-        <header class="header">
+        <header id="header" class="header">
             <div class="header_inner">
                 <h1 class="title">MenúCasero</h1>
                 <nav>
                     <ul class="menu">
                         <li class="menu-item"><a class="nav-link" href="#como">¿Cómo funciona?</a></li>
-                        <li class="menu-item"><a class="nav-link" href="#section-4">Platos y precios</a></li>
-                        <li class="menu-item"><a class="nav-link" href="#section-5">Zona de reparto</a></li>
-                        <li class="menu-item"><a class="nav-link" href="#section-6">¿Preguntas?</a></li>
+                        <li class="menu-item"><a class="nav-link" href="#platos">Platos y precios</a></li>
+                        <li class="menu-item"><a class="nav-link" href="#cobertura">Zona de reparto</a></li>
+                        <li class="menu-item"><a class="nav-link" href="#faq">¿Preguntas?</a></li>
                         <li class="menu-btn"><button id="pedir" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola, quiero información sobre el menú de hoy!")' class="nav-btn btn background-green">Quiero pedir</button></li>
                     </ul>
                 </nav>
@@ -44,61 +45,81 @@
         </header>
 
         <main class="main">
-            <section class="section-1">
-                <div class="section-1_inner">
-                    <header class="section-header">
+            <section id="banner" class="banner">
+                <div class="banner_inner">
+                    <header class="banner-header">
                         <h2 class="rubik">Comida de casa</h2>
                         <p>Comida <span class="bold">sana</span> y <span class="bold">deliciosa</span> de lunes a sábado. Preparada por <span class="bold">expertos</span>.</p>
                         <p class="bold">De nuestra cocina, a tu mesa.</p>
                     </header>
                     <footer class="section-footer">
-                        <div class="btns-group">
+                        <div class="banner-btns-group">
                             <button class="btn background-none_border-solid bold" style="font-family:'Open Sans', Sans-serif">Ver menú</button>
                             <button class="btn background-green" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola, quiero información sobre el menú de hoy!")'>Quiero pedir</button>
                         </div>
                     </footer>
                 </div>
             </section>
-            <div id="section-2" class="section-2 rubik bold">
-                <p>Cocinando los mejores almuerzos caseros desde hace 12 años. | Utilizamos envases reciclables y libres de poliestireno</p>
+            <div class="section-2">
+                <p class="rubik">Cocinando los mejores almuerzos caseros desde hace 12 años. | Utilizamos envases reciclables y libres de poliestireno</p>
             </div>
-            <section id="section-3" class="como">
-                <div class="como-inner" id="como">
+            <section id="como" class="section background-gray">
+                <div class="section-inner">
                     <header class="section-header">
-                        <h2 class="rubik">¿Cómo funciona?</h2>
+                        <h2 style="color: #5c8296;">¿Cómo funciona?</h2>
+                    </header>
+                    <div class="section-content">
+                        <div class="panel-wrapper">
+                            <div class="panel">
+                                <h3>¡Comunícate con nosotros!</h3><br>
+                                <p>Pregunta por el <span class="cursive">menú del día</span> haciendo click en el botón <span class="bold">"Quiero pedir"</span> que te llevará automáticamente al chat.</p><br>
+                                <p>O comunícate directamente al whatsapp: <span class="bold">961257878</span></p><br>
+                                <button class="panel-btn btn background-green" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola, quiero información sobre el menú de hoy!")'>Quiero pedir</button>
+                            </div>
+                            <div class="panel">
+                                <h3>¡Elige tu favorito!</h3><br>
+                                <p>Te enviaremos las entradas y segundos del día para que elijas el plato que más te guste.</p>
+                            </div>
+                            <div class="panel"></div>
+                        </div>
+                    </div>
+                    <footer class="section-footer">
+
+                    </footer>
+                </div>
+            </section>
+            <section id="platos" class="section">
+                <div class="section-inner">
+                    <header class="section-header">
+                        <h2 class="rubik">Platos y precios</h2>
                     </header>
                     <div class="panel-wrapper">
                         <div class="panel"></div>
                         <div class="panel"></div>
-                        <div class="panel"></div>
                     </div>
-                    <footer class="section-footer">
-                        <button id="pedir" class="btn background-green" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola, quiero información sobre el menú de hoy!")'>Quiero pedir</button>
-                    </footer>
                 </div>
             </section>
-            <section id="section-4" class="section-3">
-                <header class="section-header">
-                    <h2 class="rubik">Platos y precios</h2>
-                </header>
-                <div class="panel-wrapper">
-                    <div class="panel"></div>
-                    <div class="panel"></div>
-                </div>
-            </section>
-            <section id="section-5" class="section-3">
-                <h2 class="rubik">Zona de reparto</h2>
-                <div style="width: 100%">
-                    <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=manuel%20lorenzo%20aguirre%20249+(Menu%20Caero)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            <section id="cobertura" class="section background-gray">
+                <div class="section-inner">
+                    <header class="section-header">
+                        <h2 class="rubik" style=" color: #5c8296;">Zona de reparto</h2>
+                    </header>
+                    <div style="width: 100%">
+                        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=manuel%20lorenzo%20aguirre%20249+(Menu%20Caero)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                         <a href="https://www.gps.ie/sport-gps/">swimming watch</a>
                     </iframe>
+                    </div>
                 </div>
             </section>
-            <section id="section-6" class="section-3">
-                <h2 class="rubik">Preguntas frecuentes</h2>
-                <div class="panel-wrapper">
-                    <div class="panel"></div>
-                    <div class="panel"></div>
+            <section id="faq" class="section background-darkgray">
+                <div class="section-inner">
+                    <header class="section-header">
+                        <h2 class="rubik">Preguntas frecuentes</h2>
+                    </header>
+                    <div class="panel-wrapper">
+                        <div class="panel"></div>
+                        <div class="panel"></div>
+                    </div>
                 </div>
             </section>
         </main>

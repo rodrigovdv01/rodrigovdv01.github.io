@@ -1,4 +1,5 @@
 /*acutalizar*/
+
 @media screen and (min-width: 768px) {
     .header {
         position: fixed;
@@ -55,7 +56,7 @@
     .nav-btn {
         float: left;
     }
-    .nav-btn:hover {
+    .btn:hover {
         cursor: pointer;
         background: #0c9066;
     }

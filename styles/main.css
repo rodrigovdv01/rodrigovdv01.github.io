@@ -1,5 +1,8 @@
 /* || general setup */
+
+
 /*acutalizar*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +12,10 @@
 body {
     font-family: sans-serif;
     width: 100%;
+}
+
+h3 {
+    color: #000;
 }
 
 button,
@@ -39,6 +46,10 @@ a {
     font-weight: bold;
 }
 
+.cursive {
+    font-style: italic;
+}
+
 .btn {
     color: #fff;
     border-radius: 20px;
@@ -52,13 +63,22 @@ a {
     background: #00cb8c;
 }
 
+.background-gray {
+    background: #d7d7d7;
+}
+
+.background-darkgray {
+    background: #626261;
+}
+
+.background-yellow {
+    background: #fff152;
+}
+
 .background-none_border-solid {
     background: none;
     border: 1px solid #fff;
 }
-
-
-/* || Content GRID */
 
 @media screen and (min-width: 768px) {
     .wrapper {
@@ -81,46 +101,5 @@ a {
         grid-row: 3;
         grid-column: 1 / span 12;
         color: #fff;
-    }
-    .btns-group {
-        padding: 40px 0 0;
-    }
-    /* || Main */
-    .como {
-        background: #d7d7d7;
-        width: 100%;
-        height: 65vw;
-    }
-    .como-inner {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        padding: 3vw 5vw;
-    }
-    .como h2 {
-        position: relative;
-        text-align: center;
-        padding: 80px 0 0;
-        padding: 0;
-        margin: 0;
-        color: #ffffff;
-        font-family: 'Quicksand', sans-serif;
-        font-size: 40px;
-        margin-bottom: 2vh;
-    }
-    .panel-wrapper {
-        display: flex;
-        height: 100%;
-        text-align: center;
-        width: 100%;
-        margin: auto;
-    }
-    .panel {
-        background: #fff;
-        flex: 1;
-        width: 100%;
-        margin: 0;
-        border-radius: 5px;
-        margin: 0px 10px;
     }
 }

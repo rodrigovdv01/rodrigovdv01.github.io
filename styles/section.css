@@ -1,0 +1,71 @@
+/*acutalizar*/
+
+@media screen and (min-width: 768px) {
+    .section {
+        width: 100%;
+        padding: 75px 0 85px;
+    }
+    .section-inner {
+        display: flex;
+        flex-direction: column;
+        margin: 0 120px;
+        padding: 0 15px;
+    }
+    .section-header {
+        flex-basis: 80px;
+    }
+    .section-header h2 {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 46px;
+        color: #fff;
+        margin: 0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .section-header p {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2vw;
+        margin: 0;
+    }
+    .section-content {
+        margin-top: 40px;
+    }
+    .panel-wrapper {
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    .panel {
+        background: #fff;
+        flex: 1;
+        width: 100%;
+        height: 60vh;
+        margin: 0;
+        border-radius: 5px;
+        margin: 0px 10px;
+        padding: 40px;
+    }
+    .panel-btn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .section-footer {
+        flex-basis: 80px;
+    }
+    .section-2 {
+        width: 100%;
+        background: #f52c52;
+    }
+    .section-2 p {
+        position: relative;
+        color: #fff;
+        font-size: 16px;
+        height: 100%;
+        padding: 6px 0;
+        text-align: center;
+    }
+}
