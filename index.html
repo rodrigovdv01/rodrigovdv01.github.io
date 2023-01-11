@@ -16,6 +16,7 @@
 
     <!--CSS Style-->
     <link href="styles/header.css" rel=stylesheet type="text/css">
+    <link href="styles/section1.css" rel=stylesheet type="text/css">
     <link href="styles/main.css" rel=stylesheet type="text/css">
 
     <!--Google fonts-->
@@ -33,11 +34,11 @@
                 <h1 class="title">MenúCasero</h1>
                 <nav>
                     <ul class="menu">
-                        <li class="menu-item"><a class="nav-link" href="#section-3">¿Cómo funciona?</a></li>
+                        <li class="menu-item"><a class="nav-link" href="#como">¿Cómo funciona?</a></li>
                         <li class="menu-item"><a class="nav-link" href="#section-4">Platos y precios</a></li>
                         <li class="menu-item"><a class="nav-link" href="#section-5">Zona de reparto</a></li>
                         <li class="menu-item"><a class="nav-link" href="#section-6">¿Preguntas?</a></li>
-                        <li class="menu-item"><button id="pedir" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola, quiero información sobre el menú de hoy!")' class="nav-btn">Quiero pedir</button></li>
+                        <li class="menu-btn"><button id="pedir" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola, quiero información sobre el menú de hoy!")' class="nav-btn btn background-green">Quiero pedir</button></li>
                     </ul>
                 </nav>
             </div>
@@ -46,29 +47,41 @@
         <main class="main">
             <section class="section-1">
                 <div class="section-1_inner">
-                    <header class="section-1_header">
+                    <header class="section-header">
                         <h2 class="rubik">Comida de casa</h2>
-                    </header>
-                    <footer class="section-1_footer">
                         <p>Comida <span class="bold">sana</span> y <span class="bold">deliciosa</span> de lunes a sábado. Preparada por <span class="bold">expertos</span>.</p>
                         <p class="bold">De nuestra cocina, a tu mesa.</p>
+                    </header>
+                    <footer class="section-footer">
+                        <div class="btns-group">
+                            <button class="btn background-none_border-solid bold" style="font-family:'Open Sans', Sans-serif">Ver menú</button>
+                            <button class="btn background-green" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola, quiero información sobre el menú de hoy!")'>Quiero pedir</button>
+                        </div>
                     </footer>
-                    <div class="section-1_buttons"></div>
                 </div>
             </section>
-            <div id="section-2" class="section-2 rubik">
+            <div id="section-2" class="section-2 rubik bold">
                 <p>Cocinando los mejores almuerzos caseros desde hace 12 años. | Utilizamos envases reciclables y libres de poliestireno</p>
             </div>
-            <section id="section-3" class="section-3">
-                <h2 class="rubik">¿Cómo funciona?</h2>
-                <div class="panel-wrapper">
-                    <div class="panel"></div>
-                    <div class="panel"></div>
-                    <div class="panel"></div>
+            <section id="section-3" class="como">
+                <div class="como-inner" id="como">
+                    <header class="section-header">
+                        <h2 class="rubik">¿Cómo funciona?</h2>
+                    </header>
+                    <div class="panel-wrapper">
+                        <div class="panel"></div>
+                        <div class="panel"></div>
+                        <div class="panel"></div>
+                    </div>
+                    <footer class="section-footer">
+                        <button id="pedir" class="btn background-green" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola, quiero información sobre el menú de hoy!")'>Quiero pedir</button>
+                    </footer>
                 </div>
             </section>
             <section id="section-4" class="section-3">
-                <h2 class="rubik">Platos y precios</h2>
+                <header class="section-header">
+                    <h2 class="rubik">Platos y precios</h2>
+                </header>
                 <div class="panel-wrapper">
                     <div class="panel"></div>
                     <div class="panel"></div>

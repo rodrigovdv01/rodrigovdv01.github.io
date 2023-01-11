@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) {
+    .section-1 {
+        background: #5c8296;
+        background: url("../images/tapers.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        flex-basis: 84vh;
+        padding-top: 200px;
+        padding-bottom: 220px;
+    }
+    .section-1_inner {
+        display: flex;
+        flex-direction: column;
+        padding: 0 12vw;
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+        text-align: center;
+    }
+    .section-header {
+        flex: 2;
+    }
+    .section-header h2 {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 5vw;
+        margin: 0;
+    }
+    .section-header p {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 2vw;
+        margin: 0;
+    }
+    .section-footer {
+        flex: 1;
+    }
+    .section-2 {
+        width: 100%;
+        background: #f52c52;
+    }
+    .section-2 p {
+        position: relative;
+        color: #fff;
+        font-size: 16px;
+        height: 100%;
+        padding: 6px 0;
+        text-align: center;
+    }
+}
