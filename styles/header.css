@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+    .header {
+        position: fixed;
+        top: 0;
+        background: #fff;
+        width: 100%;
+        height: 16vh;
+        padding: 15px;
+        z-index: 100;
+    }
+    .header_inner {
+        height: 100%;
+        display: flex;
+    }
+    .title {
+        font-size: 3vw;
+        flex: 2;
+        text-align: center;
+        margin: auto;
+    }
+    nav {
+        position: relative;
+        display: flex;
+        flex: 4;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 2;
+    }
+    .menu-item {
+        position: relative;
+        color: #626261;
+        display: inline-block;
+        padding: 10px 0;
+        flex: 1;
+        text-align: center;
+    }
+    .nav-btn,
+    .nav-link {
+        display: block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .nav-link {
+        font-size: 1.3vw;
+        color: #626261;
+    }
+    .nav-btn {
+        float: left;
+        background: #00cb8c;
+        color: #fff;
+        border-radius: 16px;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.4vw;
+        margin-left: 10px;
+        padding: 10px;
+    }
+}
