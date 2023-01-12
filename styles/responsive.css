@@ -1,0 +1,44 @@
+.wrapper {
+    display: grid;
+    margin: 0;
+    justify-items: stretch;
+    grid-template-rows: 20vh auto 40vh;
+    grid-template-columns: 1fr;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    min-width: 100vw;
+    min-height: 20vh;
+    z-index: 100;
+}
+
+.main {
+    grid-column: 1 / span 2;
+    grid-row: 2 / 3;
+    background: #5c8296;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #000;
+    grid-row: 3;
+    color: #fff;
+}
+
+@media screen and(min-width: 768px) {
+    .main {
+        grid-column: 1 / span 12;
+    }
+    .banner {
+        padding-top: 200px;
+        padding-bottom: 220px;
+    }
+    .panel-wrapper {
+        flex-direction: row;
+    }
+}

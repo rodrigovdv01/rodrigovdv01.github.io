@@ -1,19 +1,10 @@
-.header {
-    position: fixed;
-    top: 0;
-    background: #fff;
-    width: 100%;
-    z-index: 100;
-    padding: 40px;
-}
-
 .header_inner {
-    height: 100%;
     display: flex;
+    margin-top: 5%;
 }
 
 .title {
-    font-size: 3vw;
+    font-size: 14px;
     flex: 1;
     margin: auto;
     padding-left: 20px;
