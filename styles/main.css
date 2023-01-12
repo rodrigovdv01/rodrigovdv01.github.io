@@ -8,7 +8,7 @@
 
 body {
     font-family: sans-serif;
-    width: 100vw;
+    max-width: 100vw;
 }
 
 h3 {
@@ -94,7 +94,7 @@ a {
     background: #5c8296;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
 }
 
 .footer {

@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
     flex-basis: 84vh;
     padding-top: 200px;
     padding-bottom: 220px;
