@@ -29,13 +29,3 @@
     grid-row: 3;
     color: #fff;
 }
-
-@media screen and(min-width: 768px) {
-    .main {
-        grid-column: 1 / span 12;
-    }
-    .banner {
-        padding-top: 200px;
-        padding-bottom: 220px;
-    }
-}
