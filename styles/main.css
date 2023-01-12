@@ -8,7 +8,7 @@
 
 body {
     font-family: sans-serif;
-    width: 100%;
+    width: 100vw;
 }
 
 h3 {
@@ -86,7 +86,7 @@ a {
     display: grid;
     margin: 0;
     justify-items: stretch;
-    grid-template-rows: 16vh auto 40vh;
+    grid-template-rows: 50px auto 40vh;
 }
 
 .main {
