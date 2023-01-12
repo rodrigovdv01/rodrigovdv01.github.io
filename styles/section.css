@@ -1,5 +1,17 @@
 /*acutalizaar*/
 
+.panel h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+    color: #626261;
+}
+
+.panel p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #959595;
+}
+
 @media screen and (min-width: 768px) {
     .section {
         width: 100%;
@@ -39,12 +51,23 @@
     .panel {
         background: #fff;
         flex: 1;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: 60vh;
-        margin: 0;
         border-radius: 5px;
         margin: 0px 10px;
         padding: 40px;
+    }
+    .panel-header {
+        flex-basis: 20%;
+    }
+    .panel-content {
+        flex-basis: 60%;
+        padding: 10% 0;
+    }
+    .panel-footer {
+        flex-basis: 20%;
     }
     .panel-btn {
         position: relative;
