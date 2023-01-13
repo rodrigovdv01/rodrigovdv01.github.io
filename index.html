@@ -25,6 +25,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&family=Rubik&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,9 +40,13 @@
                         <li class="menu-item"><a class="nav-link" href="#platos">Platos y precios</a></li>
                         <li class="menu-item"><a class="nav-link" href="#cobertura">Zona de reparto</a></li>
                         <li class="menu-item"><a class="nav-link" href="#faq">¿Preguntas?</a></li>
-                        <li class="menu-btn"><button id="pedir" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola! ¿Cuál es el menú de hoy?")' class="nav-btn btn background-green">Quiero pedir</button></li>
+                        <li class="menu-btn"><a id="pedir" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola! ¿Cuál es el menú de hoy?")' class="nav-btn btn background-green">Quiero pedir</a></li>
                     </ul>
                 </nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
             </div>
         </header>
 
