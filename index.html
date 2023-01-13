@@ -45,7 +45,7 @@
                             <li class="menu-item"><a class="nav-link" href="#platos">Platos y precios</a></li>
                             <li class="menu-item"><a class="nav-link" href="#cobertura">Zona de reparto</a></li>
                             <li class="menu-item"><a class="nav-link" href="#faq">¿Preguntas?</a></li>
-                            <li class="menu-btn"><a id="pedir" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola! ¿Cuál es el menú de hoy?")' class="nav-btn btn background-green">Quiero pedir</a></li>
+                            <li class="menu-btn"><a id="pedir1" class="nav-btn btn background-green pedir">Quiero pedir</a></li>
                         </ul>
                     </nav>
 
@@ -63,7 +63,7 @@
                         <footer class="section-footer">
                             <div class="banner-btns-group">
                                 <button class="btn background-none_border-solid bold" style="font-family:'Open Sans', Sans-serif">Ver menú</button>
-                                <button class="btn background-green" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola! ¿Cuál es el menú de hoy?")'>Quiero pedir</button>
+                                <a id="pedir2" class="btn background-green">Quiero pedir</a>
                             </div>
                         </footer>
                     </div>
@@ -87,7 +87,7 @@
                                         <p>O comunícate directamente al número: <span class="bold">961257878</span></p><br>
                                     </div>
                                     <footer class="panel-footer">
-                                        <button class="panel-btn btn border-color-green" onclick='window.open("https://api.whatsapp.com/send?phone=+51961257878&text=Hola! ¿Cuál es el menú de hoy!")'>Quiero pedir</button>
+                                        <button id="pedir3" class="panel-btn btn border-color-green">Quiero pedir</button>
                                     </footer>
                                 </div>
                                 <div class="panel">
@@ -99,7 +99,7 @@
                                         <p>Puedes elegir sopa o entrada y de plato de fondo <span class="bold">elige tu favorito.</span></p><br>
                                     </div>
                                     <footer class="panel-footer">
-                                        <button class="panel-btn btn border-color-green" style=" font-family:'Open Sans', Sans-serif">Ver menú</button>
+                                        <button id="ver-menu" class="panel-btn btn border-color-green" style=" font-family:'Open Sans', Sans-serif">Ver menú</button>
                                     </footer>
                                 </div>
                                 <div class="panel">
@@ -159,7 +159,7 @@
             </footer>
         </div>
     </div>
-    <script href="scripts/main.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
