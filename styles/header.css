@@ -97,7 +97,7 @@ nav {
         width: 60%;
         height: 100vh;
         background: rgb(255, 255, 255);
-        top: -100%;
+        top: -150%;
         right: 0;
         text-align: center;
         transition: all .6s;
