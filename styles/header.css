@@ -1,4 +1,4 @@
-.header {
+    .header {
     position: fixed;
     top: 0;
     background: #fff;
@@ -119,65 +119,61 @@ nav {
     #check:checked~#nav {
         top: 80px;
     }
-}
-
-@media screen and (min-width: 768px) {
-    .title {
-        font-size: 2vw;
-        flex: 2;
-        margin: auto;
-        padding-left: 40px;
+    @media screen and (min-width: 768px) {
+        .title {
+            font-size: 2vw;
+            flex: 2;
+            margin: auto;
+            padding-left: 40px;
+        }
+        nav {
+            position: relative;
+            display: flex;
+            flex: 5;
+            flex-wrap: wrap;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .menu-item {
+            position: relative;
+            color: #626261;
+            display: inline-block;
+            padding: 10px 5px;
+            flex: 1;
+            text-align: center;
+        }
+        .menu-btn {
+            flex: 1;
+        }
+        .nav-btn,
+        .nav-link {
+            display: block;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .nav-link {
+            font-size: 14px;
+            color: #626261;
+        }
+        .nav-btn {
+            float: left;
+        }
+        .btn:hover {
+            cursor: pointer;
+            background: #0c9066;
+        }
     }
-    nav {
-        position: relative;
-        display: flex;
-        flex: 5;
-        flex-wrap: wrap;
+    @media screen and (min-width: 1024px) {
+        .header {
+            padding: 3vw;
+        }
     }
-    .menu {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
+    @media screen and (min-width: 1440px) {
+        .header {
+            padding: 2vw;
+        }
     }
-    .menu-item {
-        position: relative;
-        color: #626261;
-        display: inline-block;
-        padding: 10px 5px;
-        flex: 1;
-        text-align: center;
-    }
-    .menu-btn {
-        flex: 1;
-    }
-    .nav-btn,
-    .nav-link {
-        display: block;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    .nav-link {
-        font-size: 14px;
-        color: #626261;
-    }
-    .nav-btn {
-        float: left;
-    }
-    .btn:hover {
-        cursor: pointer;
-        background: #0c9066;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .header {
-        padding: 3vw;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .header {
-        padding: 2vw;
-    }
-}
