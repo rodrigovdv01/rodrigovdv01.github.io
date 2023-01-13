@@ -14,7 +14,7 @@
 }
 
 .title {
-    font-family: 'Acme', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     color: #5c8296;
     font-size: 30px;
     flex: 1;
