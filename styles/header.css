@@ -37,10 +37,8 @@ nav {
     position: relative;
     color: #626261;
     display: inline-block;
-    padding: 10px 5px;
     flex: 1;
     text-align: center;
-    line-height: 100%;
 }
 
 .menu-btn {
@@ -66,6 +64,10 @@ nav {
     text-align: center;
 }
 
+#check {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .checkbtn,
     #check {
@@ -88,29 +90,31 @@ nav {
         top: -100%;
         right: 0;
         text-align: center;
-        transition: all .5s;
+        transition: all .6s;
     }
     .menu {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
+        display: block;
     }
     .menu-item {
-        /*
         position: relative;
-        top: 20%;
-        transform: translateY(-50%);
+        color: #626261;
         display: block;
-        flex: 1;*/
+        flex: 1;
+        text-align: center;
+        line-height: 100%;
+        padding: 6vh 5px;
     }
     .menu-item a {
         font-size: 20px;
     }
     .nav-btn {
-        /*
-        text-align: center;
         float: none;
-        flex: 4;*/
+    }
+    .menu-btn {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        padding: 10%;
     }
     #check:checked~#nav {
         top: 80px;
