@@ -81,6 +81,12 @@ nav {
     }
     .header {
         max-height: 80px;
+        line-height: 25px;
+    }
+    .header-inner {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        line-height: 50px;
     }
     .checkbtn {
         display: block;
