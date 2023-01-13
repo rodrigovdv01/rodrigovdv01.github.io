@@ -62,13 +62,15 @@ nav {
     background: #0c9066;
 }
 
-.checkbtn,
-#check {
-    display: none;
-}
-
 #pedir {
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .checkbtn,
+    #check {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 767px) {
