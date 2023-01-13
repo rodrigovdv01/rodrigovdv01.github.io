@@ -1,4 +1,4 @@
-.wrapper {
+.page-wrapper {
     position: absolute;
     display: grid;
     margin: 0;
@@ -16,14 +16,14 @@
     max-width: 100%;
 }
 
-.footer {
+.page-footer {
     background-color: #000;
     grid-row: 3;
     color: #fff;
 }
 
 @media screen and (max-width: 767px) {
-    .wrapper {
+    .page-wrapper {
         grid-template-rows: 80px auto 40vh;
     }
 }
