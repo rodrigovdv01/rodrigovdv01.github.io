@@ -7,21 +7,6 @@
     grid-template-columns: 1fr;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    background: #fff;
-    min-width: 100vw;
-    min-height: 20vh;
-    z-index: 100;
-    padding: 4vw;
-}
-
-.header_inner {
-    display: flex;
-    padding: 2% 0;
-}
-
 .main {
     grid-column: 1 / span 2;
     grid-row: 2 / 3;
@@ -37,14 +22,8 @@
     color: #fff;
 }
 
-@media screen and (min-width: 1024px) {
-    .header {
-        padding: 3vw;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .header {
-        padding: 2vw;
+@media screen and (max-width: 767px) {
+    .wrapper {
+        grid-template-rows: 80px auto 40vh;
     }
 }
