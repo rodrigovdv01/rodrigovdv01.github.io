@@ -14,7 +14,6 @@
 }
 
 .title {
-    z-index: 120;
     font-size: 30px;
     flex: 1;
     margin: auto;
@@ -32,6 +31,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    z-index: 200;
 }
 
 .menu-item {
