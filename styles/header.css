@@ -66,12 +66,14 @@ nav {
 
 #check {
     display: none;
+    z-index: 100;
 }
 
 @media screen and (min-width: 768px) {
     .checkbtn,
     #check {
         display: none;
+        z-index: 100;
     }
 }
 
@@ -89,6 +91,7 @@ nav {
         line-height: 50px;
     }
     .checkbtn {
+        z-index: 100;
         display: block;
         padding: 5px 0;
     }
